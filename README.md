@@ -90,6 +90,20 @@ y sigue las instrucciones en pantalla para completar la creación del usuario.
 
 Con estos pasos, tendrás una base de datos lista para usar con tu aplicación Django.
 
+6. Ejecuta el Servidor de Desarrollo:
+
+```bash
+python manage.py runserver
+```
+
+Ahora deberías poder acceder a tu proyecto Django en http://localhost:8000/ en tu navegador.
+
+### Acceso a la Documentación
+
+Para acceder a la documentación de tu API, navega a: http://localhost:8000/tasks/api/v1/tasks/
+
+Recuerda reemplazar tu_usuario/tu_repositorio.git con tu nombre de usuario de GitHub y el nombre de tu repositorio correspondiente.
+
 # React
 
 Antes de arrancar el frontend de la apliación es necesario instalar todas las depencias con el siguiente comando:
