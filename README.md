@@ -78,7 +78,7 @@ Para configurar la base de datos `db.sqlite3` localmente, sigue estos pasos, ase
 3. Ejecuta las migraciones para crear la estructura de la base de datos:
 ```bash
  python manage.py migrate
-````
+```
 
 4. (Opcional) Si deseas crear un usuario administrador para acceder al panel de administración de Django, ejecuta:
 
@@ -101,3 +101,4 @@ Executa la aplicación dentro de la carpeta /user con:
 Esto iniciará tu aplicación React y estará disponible en la dirección http://localhost:5173
 
 ###End
+````
