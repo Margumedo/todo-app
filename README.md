@@ -55,7 +55,7 @@ Sigue estos pasos para configurar el entorno y ejecutar el proyecto:
   ```
 
 5. **Installation of Dependencies**:
-   ```bash
+   ```
    pip install -r requirements.txt
    ```
 
