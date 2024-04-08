@@ -68,14 +68,15 @@ Para configurar la base de datos `db.sqlite3` localmente, sigue estos pasos, ase
 1.  Verifica que estás en el directorio raíz del proyecto Django donde se encuentra el archivo `manage.py`.
 
 2.  Recuerda activar tu entorno virtual de Python, por si no lo hiciste:
-    ```sh
+
+```sh
     source venv/bin/activate  # En sistemas basados en Unix/Linux/MacOS
     .\venv\Scripts\activate   # En Windows
-    ```
+```
 
 ````
 3. Ejecuta las migraciones para crear la estructura de la base de datos:
- ```bash
+```bash
  python manage.py migrate
 ````
 
